@@ -119,7 +119,7 @@ popd
 
 # Build LoRa gateway app
 if [ ! -d lora_gateway ]; then
-    git clone -b legacy https://github.com/TheThingsNetwork/lora_gateway.git
+    git clone -b legacy https://github.com/GHolli/lora_gateway.git
     pushd lora_gateway
 else
     pushd lora_gateway
@@ -140,7 +140,7 @@ popd
 
 # Build packet forwarder
 if [ ! -d packet_forwarder ]; then
-    git clone -b legacy https://github.com/TheThingsNetwork/packet_forwarder.git
+    git clone -b legacy https://github.com/GHolli/packet_forwarder.git
     pushd packet_forwarder
 else
     pushd packet_forwarder
